@@ -1,10 +1,21 @@
 import { useState } from 'react'
+import Para from './Para'
 function App() {
-  const [count, setCount] = useState(0)
-
+  const user = "Naam nhi pata"
+  
   return (
-    <h1>First Vite Project | Akshad Khan</h1>
+    <>
+      <h1>First Vite Project | Akshad Khan</h1>
+      <p>React {user}</p>
+      <Para></Para>
+    </>
+    
   )
 }
 
 export default App
+
+
+
+
+
